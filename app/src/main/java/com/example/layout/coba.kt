@@ -72,6 +72,6 @@ fun  TataletakColumnRow(modifier: Modifier) {
             Text(text = "Komponen3Baris2")
         }
     }
-
-
 }
+
+@Composable
