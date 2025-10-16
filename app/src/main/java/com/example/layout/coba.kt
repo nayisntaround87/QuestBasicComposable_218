@@ -48,5 +48,6 @@ fun TataletakBox(modifier: Modifier) {
         Text(text = "Box 2")
         Text(text = "Column 2")
     }
-
 }
+
+@Composable
