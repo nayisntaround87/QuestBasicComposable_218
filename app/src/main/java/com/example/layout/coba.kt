@@ -7,6 +7,7 @@ import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -79,6 +80,10 @@ fun  TataletakColumnRow(modifier: Modifier) {
 fun TataLetakBoxColumnRow(modifier: Modifier) {
     val gambar = painterResource(id =  R.drawable.notasibalok)
     Column {
-
+        Box(
+            modifier = modifier
+                .fillMaxWidth()
+                .height(110.dp)
+        )
     }
 }
