@@ -31,3 +31,4 @@ fun TataletakRow(modifier: Modifier) {
     }
 }
 
+@Composable
