@@ -29,6 +29,5 @@ fun TataletakRow(modifier: Modifier) {
         Text(text = "Komponen3")
         Text(text = "Komponen4")
     }
-
 }
 
